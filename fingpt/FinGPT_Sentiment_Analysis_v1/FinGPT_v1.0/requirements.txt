@@ -5,11 +5,11 @@ accelerate==0.17.1
 # triton<2.1.0  # Required for bitsandbytes compatibility on NVIDIA GPUs only
 
 # chatglm
-protobuf>=3.19.5,<3.20.1
-transformers==4.27.1
+protobuf>=7.36.0,<7.36.1
+transformers==5.5.0
 icetk
 cpm_kernels==1.0.11
-torch>=1.13.1
+torch>=2.13.0
 tensorboard
 
 # 
